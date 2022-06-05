@@ -4,4 +4,14 @@
   .example-spacer {
     flex: 1 1 auto;
   }
+
+  .mat-toolbar {
+    background: #2269DB;
+    color: white;
+    padding: 0.125rem 1rem;
+  }
+
+  .mat-toolbar-single-row {
+    height: auto;
+  }
 }
