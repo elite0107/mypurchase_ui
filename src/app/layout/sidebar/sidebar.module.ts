@@ -5,6 +5,7 @@ import { SidebarComponent } from './sidebar.component';
 import { MatTreeModule } from '@angular/material/tree';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MatButtonModule } from '@angular/material/button';
     CommonModule,
     MatTreeModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDialogModule
   ],
   exports: [
     SidebarComponent

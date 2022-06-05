@@ -12,6 +12,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   height: 100vh;
 }
 
+.width-100 {
+  width: 100%;
+}
+
 .d-flex {
   display: flex;
 }
@@ -26,4 +30,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.ml-auto {
+  margin-left: auto !important;
 }

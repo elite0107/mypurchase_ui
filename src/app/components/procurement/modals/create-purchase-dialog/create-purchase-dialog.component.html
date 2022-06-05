@@ -1,0 +1,22 @@
+<div class="create-purchase-dialog">
+  <h1>MyPurchase</h1>
+  <div class="separator"></div>
+  <h2>Purchase Mode</h2>
+
+  <mat-radio-group [(ngModel)]="labelPosition">
+    <mat-radio-button class="example-margin" value="after">Request for Quotation</mat-radio-button>
+    <mat-radio-button class="example-margin" value="before">Tender Process</mat-radio-button>
+    <mat-radio-button class="example-margin" value="before">Online Purchase Using DSO Purchasing Card</mat-radio-button>
+    <mat-radio-button class="example-margin" value="before">Payment for Product/Service Rendered</mat-radio-button>
+    <mat-radio-button class="example-margin" value="before">Purchase <= $6,000 with Quotation</mat-radio-button>
+    <mat-radio-button class="example-margin" value="before">Staff Reimbursement</mat-radio-button>
+    <mat-radio-button class="example-margin" value="before">Reimbursement for Staff Welfare and Benefits related expenses</mat-radio-button>
+    <mat-radio-button class="example-margin" value="before">Blanket My Purchase</mat-radio-button>
+  </mat-radio-group>
+  <div class="d-flex">
+    <button mat-button class="ml-auto" (click)="closeDialog()">
+      <mat-icon>keyboard_double_arrow_right</mat-icon>
+      Continue
+    </button>
+  </div>
+</div>
