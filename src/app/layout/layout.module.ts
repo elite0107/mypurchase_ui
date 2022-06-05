@@ -6,6 +6,8 @@ import { LayoutComponent } from './layout.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { HeaderModule } from './header/header.module';
 import { RouterModule } from '@angular/router';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { SidebarModule } from './sidebar/sidebar.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import { RouterModule } from '@angular/router';
     CommonModule,
     MatSidenavModule,
     HeaderModule,
-    RouterModule
+    RouterModule,
+    SidebarModule
   ],
   exports: [
     LayoutComponent
