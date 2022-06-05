@@ -1,0 +1,11 @@
+<div class="d-flex flex-column full-height">
+  <app-header></app-header>
+  <mat-drawer-container class="flex-grow" autoresize>
+    <mat-drawer #drawer mode="side" opened>
+      Sidebar
+    </mat-drawer>
+    <div class="main-content">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-drawer-container>
+</div>
