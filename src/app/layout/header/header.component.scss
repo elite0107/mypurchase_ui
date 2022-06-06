@@ -14,4 +14,30 @@
   .mat-toolbar-single-row {
     height: auto;
   }
+
+  .input-group {
+    max-width: 800px;
+    width: 50%;
+    margin: 0 1rem;
+    position: relative;
+
+    .custom-input {
+        border-radius: 0.2rem;
+        outline: none;
+        border: 1px solid #999;
+        height: 36px;
+        width: 100%;
+      }
+
+    .overlay {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      right: 0;
+    }
+
+    .mat-icon {
+      color: black;
+    }
+  }
 }
